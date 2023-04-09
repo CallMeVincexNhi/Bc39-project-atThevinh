@@ -1,0 +1,32 @@
+@media only screen and (max-width: 992px) {
+  .workdetail-wrapper {
+    flex-direction: column;
+  }
+  .workdetail .sidebar {
+    display: contents;
+  }
+  .workdetail .content {
+    display: contents;
+  }
+  .workdetail .content .gig-overview {
+    order: 1;
+  }
+  .workdetail .content .work-thumb {
+    order: 2;
+  }
+  .sidebar-content {
+    order: 3;
+  }
+  .workdetail .content .gig-description {
+    order: 4;
+  }
+  .workdetail .content .profile-card {
+    order: 5;
+  }
+  .workdetail .content .faq-collapable {
+    order: 6;
+  }
+  .workdetail .content .reviews-packages {
+    order: 71;
+  }
+}

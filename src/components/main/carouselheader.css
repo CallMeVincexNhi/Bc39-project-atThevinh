@@ -1,0 +1,26 @@
+/* @media only screen and (max-width: 1400px) {
+  .carousel-header-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+} */
+@media only screen and (max-width: 768px) {
+  /* .carousel {
+    height: 415px;
+  } */
+  .carousel-header {
+    display: none;
+  }
+  .carousel-header-text {
+    position: initial;
+    padding: 96px 64px;
+    display: block;
+    background-color: #023a15;
+  }
+  .search-popular {
+    display: none;
+  }
+}

@@ -1,0 +1,34 @@
+@media only screen and (max-width: 768px) {
+  .button-toggle {
+    display: block;
+  }
+  .header-nav {
+    display: none;
+  }
+}
+.main_header .menu-item {
+  display: inline-block;
+  position: relative;
+}
+.main_header .menu-item:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.main_header .menu-item:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.max-width-container.menu {
+  padding-top: 0;
+  padding-bottom: 0;
+}

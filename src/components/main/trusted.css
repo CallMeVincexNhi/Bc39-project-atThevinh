@@ -1,0 +1,11 @@
+@media only screen and (max-width: 768px) {
+  .trusted .trusted-by {
+    display: none;
+  }
+  .trusted ul {
+    height: 70px;
+  }
+  .trusted ul li {
+    padding-right: 24px;
+  }
+}

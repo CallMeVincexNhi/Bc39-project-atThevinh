@@ -1,0 +1,27 @@
+.form-signup input {
+  border: unset;
+  border-radius: 4px;
+  outline-color: rgb(84 105 212 / 0.5);
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.16) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+
+.form-signup .btn-signup {
+  border: 1px solid rgb(29, 191, 115);
+  border-radius: 4px;
+  background-color: rgb(29, 191, 115);
+}
+
+@media only screen and (max-width: 768px) {
+  .signup-introduce {
+    display: none;
+  }
+  .signup-form {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+}
